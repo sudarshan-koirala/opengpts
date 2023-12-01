@@ -275,6 +275,14 @@ AZURE_OPENAI_API_VERSION: your_secret_here
 AZURE_OPENAI_API_KEY: your_secret_here
 ```
 
+If you want to trace and evaluate your Language model apps, paste this too inside .env
+
+```
+LANGCHAIN_TRACING_V2: "true"
+LANGCHAIN_PROJECT: langserve-launch-example
+LANGCHAIN_API_KEY: your_secret_key_here
+```
+
 Once you open the docker desktop and environment varialbes pasted, run the following commands from the root directory where `docker-compose.yml` is.
 
 ```
