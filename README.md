@@ -275,7 +275,7 @@ AZURE_OPENAI_API_VERSION: your_secret_here
 AZURE_OPENAI_API_KEY: your_secret_here
 ```
 
-If you want to trace and evaluate your Language model apps, we can use [LangSmith](https://docs.smith.langchain.com/) which is still in beta and you need, register for waiting list. Paste this too inside `.env` and replace the project name as well as api key.
+If you want to trace and evaluate your Language model apps, we can use [LangSmith doc](https://docs.smith.langchain.com/) which is still in beta and you need, register for waiting list. This is the actual website once approved, [LangSmith](https://smith.langchain.com/). Paste this too inside `.env` and replace the project name as well as api key.
 ```
 LANGCHAIN_TRACING_V2: "true"
 LANGCHAIN_PROJECT: langserve-launch-example
