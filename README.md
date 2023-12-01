@@ -269,6 +269,10 @@ Make sure to paste the `OPENAI_API_KEY` in the `.env` file. If you don't want to
 ```
 TAVILY_API_KEY=your_secret_here
 YDC_API_KEY=your_secret_here
+AZURE_OPENAI_DEPLOYMENT_NAME=your_secret_here
+AZURE_OPENAI_API_BASE=your_secret_key
+AZURE_OPENAI_API_VERSION: your_secret_here
+AZURE_OPENAI_API_KEY: your_secret_here
 ```
 
 Once you open the docker desktop and environment varialbes pasted, run the following commands from the root directory where `docker-compose.yml` is.
